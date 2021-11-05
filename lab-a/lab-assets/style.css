@@ -1,0 +1,121 @@
+nav {
+    margin: auto;
+}
+#first {
+    /* display: inline-block; */
+    margin-left: 250px;
+    margin-top: 27px;
+
+}
+#first :first-child {
+    float: left;
+}
+#first li :nth-child(2) {
+    float: left;
+    padding-top: 30px;
+    /* padding-left: 10px; */
+    padding-bottom: 5px;
+    position: relative; right: 63px;
+}
+li h2 {
+padding-top: 3px;
+padding-left: 5px;
+margin-bottom: 1px;
+}
+#icon {
+   float: right;
+   display: flex;
+   margin-right: 200px;
+
+}
+#icon :nth-child(6){
+    padding-right: 9px;
+}
+#article {
+    margin-top: 100px;
+    position: relative; left: 250px;
+
+}
+#article h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+#article p {
+    color: silver;
+    font-size: smaller;
+    font-family: sans-serif;
+    font-stretch:semi-condensed;
+}
+#printIcon {
+    float: right;
+    margin-right: 225px;
+    color: silver;
+}
+#content {
+    margin-left: 250px;
+    display: block;
+}
+#content p {
+    padding: 20px;
+    max-width: 900px;
+    font-size: 18;
+}
+
+section {
+    background-image: url("img/list-bg.png");
+    width: 900px;
+    margin-left: 250px;
+    height: 300px;
+    font-size: 20px;
+    color: #986960;
+    font-family: sans-serif;
+}
+#ingreds {
+float: left;
+padding: 50px;
+padding-right: 75px;
+margin-left: 50px;
+
+
+}
+#seconding {
+padding: 50px;
+margin-left: 100px;
+}
+
+section li {
+    padding-bottom: 15px;
+}
+footer {
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: 75px;
+}
+#pic {
+    
+}
+.share {
+    margin-left: 700px;
+    display: block;
+    background-color: rgb(240, 101, 76);
+    height: 40px;
+    color: white;
+    border: transparent;
+}
+#vanessa p {
+    padding: 25px;
+}
+#teeny {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#copyright {
+    display: block;
+    margin-left: 280px;
+    margin-right: auto;
+    padding: 25px;
+    color: silver;
+}
